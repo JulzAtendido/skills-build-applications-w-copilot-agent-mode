@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #2c3e50;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+}
+
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #eaf4fb;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
